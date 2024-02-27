@@ -1,6 +1,6 @@
 package src
 
-fun main(){
+fun main() {
     var gender: String = "Male"
     var gender2: String? = null
     if (gender2 != null) {
@@ -16,6 +16,6 @@ fun main(){
     println(selectedValue)
 
     // To bypass null check - can get nullpointerexception at runtime.
-    var value:String = gender2!!.uppercase()
+    var value: String = gender2!!.uppercase()
     println(value)
 }

@@ -1,5 +1,5 @@
-val add: (Int, Int) -> (Int) = {a,b -> a + b}
-val greet:() -> Unit = {println("Hello to Learning Lambda Functions")}
+val add: (Int, Int) -> (Int) = { a, b -> a + b }
+val greet: () -> Unit = { println("Hello to Learning Lambda Functions") }
 
 
 val sortString: (List<String>) -> List<String> = { unsortedList ->

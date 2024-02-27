@@ -1,7 +1,6 @@
 package src
 
-fun main()
-{
+fun main() {
 //    var a =true
 //    var b =false
 //    var result: Boolean;
@@ -16,4 +15,4 @@ fun main()
     println("Sum is $x")
 }
 
-infix fun Int.add(b:Int):Int = this + b;
+infix fun Int.add(b: Int): Int = this + b;

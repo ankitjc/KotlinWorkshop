@@ -7,7 +7,7 @@ fun filter(l: List<Int>, fn: (List<Int>) -> List<Int>): List<Int> {
 }
 
 fun main() {
-    val input = listOf(-2, 0, 1,2,4,5, -6, -9)
+    val input = listOf(-2, 0, 1, 2, 4, 5, -6, -9)
 
     println(filter(input, filterList))
 }
