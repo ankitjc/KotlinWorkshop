@@ -15,7 +15,7 @@ fun main(){
     var selectedValue: String? = gender2 ?: "XYZ"
     println(selectedValue)
 
-    // To bypass null check - can get nullpointerexception at runtime. 
+    // To bypass null check - can get nullpointerexception at runtime.
     var value:String = gender2!!.uppercase()
     println(value)
 }
